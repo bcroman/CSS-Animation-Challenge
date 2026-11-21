@@ -169,3 +169,98 @@ nav a:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px #999;
 }
+
+/* Footer */
+footer {
+  background: gray;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 50px 30px;
+}
+
+footer h2 {
+  letter-spacing: 5px;
+}
+
+footer p {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 2px solid #444;
+  transition: border-color 0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact button {
+  background: #555;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact button:hover {
+  background: #333;
+}
+
+.sitemap a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sitemap a:hover {
+  color: #222;
+}
+
+.sitemap li {
+  margin: 12px 0;
+}
+
+.footer-logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+
+.footer-logo:hover {
+  transform: rotate(5deg) scale(1.10);
+}
+
+.copyright {
+  background: #555;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
