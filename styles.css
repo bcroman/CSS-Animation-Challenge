@@ -131,3 +131,41 @@ nav a:hover {
   background: #555;
   transform: translateY(-5px);
 }
+
+/* Sponsors Section */
+.sponsors {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.sponsors h2 {
+  letter-spacing: 6px;
+  font-size: 26px;
+}
+
+.sponsors p {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.sponsor-box {
+  width: 120px;
+  height: 85px;
+  background: white;
+  border: 3px solid #444;
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.sponsor-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px #999;
+}
