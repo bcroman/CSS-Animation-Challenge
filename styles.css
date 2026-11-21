@@ -82,3 +82,52 @@ nav a:hover {
 .dots .active {
   background: #333;
 }
+
+/* Feature Section */
+.featured {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 70px 10%;
+}
+
+.featured-image img {
+  width: 350px;
+  max-width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.featured-image img:hover {
+  transform: scale(1.05);
+}
+
+.featured-content {
+  max-width: 400px;
+}
+
+.featured-content h2 {
+  letter-spacing: 4px;
+}
+
+.featured-content p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  background: gray;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.read-more:hover {
+  background: #555;
+  transform: translateY(-5px);
+}
